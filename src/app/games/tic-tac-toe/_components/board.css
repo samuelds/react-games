@@ -1,0 +1,3 @@
+.board {
+    @apply inline-grid grid-cols-3;
+}
