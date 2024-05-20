@@ -7,8 +7,7 @@ const Page = () => {
     
     const handleCreateGame = async (e: FormEvent) => {
         e.preventDefault();
-        const game = await createGame();
-        console.log(game);
+        const gameId = await createGame();
     }
         
     return (
